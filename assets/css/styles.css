@@ -2569,6 +2569,11 @@ thead .comparison__rowhead {
   }
 
   .hero__proof {
+    margin-top: 14px;
+    gap: 8px 10px;
+  }
+
+  .hero__proof-sep {
     display: none;
   }
 
