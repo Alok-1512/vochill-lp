@@ -2569,8 +2569,15 @@ thead .comparison__rowhead {
   }
 
   .hero__proof {
+    justify-content: center;
     margin-top: 14px;
     gap: 8px 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .hero__proof-text {
+    font-size: 10px;
   }
 
   .hero__proof-sep {
@@ -2951,8 +2958,6 @@ thead .comparison__rowhead {
     font-size: 10px;
   }
 
-  .hero__proof,
-  .hero__proof-text,
   .claims-bar__item,
   .product-details__save,
   .product-details__ship,

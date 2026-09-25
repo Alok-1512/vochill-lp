@@ -499,6 +499,15 @@
     button.addEventListener('click', function () {
       var section = document.getElementById('product');
       if (!section) return;
+
+      /* A hero CTA names the product it sells (data-shop="stemmed"): switch the
+         product tab to it before scrolling. The other CTAs have an empty
+         data-shop and just scroll, leaving the visitor's selection alone. */
+      var productKey = button.getAttribute('data-shop');
+      if (productKey && catalog.getProduct(productKey) && state.product !== productKey) {
+        state.product = productKey;
+        applySelection();
+      }
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
       /* Move keyboard focus with the scroll, not just the viewport. */
       window.setTimeout(function () {
