@@ -1,0 +1,48 @@
+# ── OS / editor ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+.claude/
+
+# ── tooling / dependencies ──────────────────────────────────
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# ── build artefacts ─────────────────────────────────────────
+*.zip
+*.log
+
+# ── design sources & originals (not used by the page) ───────
+assets/img/Frame *.png
+assets/img/3images-*.png
+assets/img/Sounds-familiar.png
+assets/img/hero-main.png
+assets/img/the-real-difference.png
+assets/img/distraction.png
+assets/img/main-product.png
+assets/img/*.webp
+assets/img/footer-mark.png
+assets/img/detail-*.jpg
+assets/img/life-*.jpg
+assets/img/studio-pair.jpg
+
+# ── fonts: only the woff2 files the page uses are kept ──────
+# (trial / personal-use originals and duplicates stay local — licence)
+assets/GTStandard-*.woff2
+assets/fonts/studiofeixenfonts-trials-2025/
+assets/fonts/studiofeixenfonts-trials-2025.zip
+assets/fonts/georgia/
+assets/fonts/georgia-2/
+assets/fonts/georgia-2.zip
+assets/fonts/Georgia-PersonalUse.*
+assets/fonts/GTStandard-*.woff2
+assets/fonts/cormorant_n4.*.woff2
+assets/fonts/Frame *.png
+assets/fonts/glass.png
+assets/fonts/snowflake.png
+
+# ── kept on purpose (do NOT ignore) ─────────────────────────
+# STUDY-GUIDE.md and README.md are tracked.
